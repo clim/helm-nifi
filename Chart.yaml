@@ -11,17 +11,11 @@ keywords:
 home: https://nifi.apache.org/
 icon: https://svn.apache.org/repos/asf/nifi/site/trunk/images/niFi-logo-horizontal-scaled.png
 source:
-  - https://github.com/cetic/helm-nifi
+  - https://github.com/clim/helm-nifi
 maintainers:
-  - name: banzo
-    email: sebastien.dupont@cetic.be
-    url: https://github.com/banzo
-  - name: AyadiAmen
-    email: amen.ayadi@cetic.be
-    url: https://github.com/AyadiAmen
-  - name: alexnuttinck
-    email: alexandre.nuttinck@cetic.be
-    url: https://github.com/alexnuttinck
+  - name: Chris Lim
+    email: christopher.a.lim@gmail.com
+    url: https://github.com/com
 dependencies:
   - name: zookeeper
     version: 5.23.0

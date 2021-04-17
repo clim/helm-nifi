@@ -8,7 +8,7 @@ This [Helm](https://helm.sh/) chart installs [Apache NiFi](https://nifi.apache.o
 
 ## Prerequisites
 
-- Kubernetes cluster 1.10+
+- Kubernetes cluster 1.21+
 - Helm 3.0.0+
 - [Persistent Volumes (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) provisioner support in the underlying infrastructure.
 

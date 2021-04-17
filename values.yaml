@@ -7,7 +7,7 @@ replicaCount: 1
 ##
 image:
   repository: apache/nifi
-  tag: "1.12.1"
+  tag: "1.13.2"
   pullPolicy: IfNotPresent
 
   ## Optionally specify an imagePullSecret.
@@ -314,7 +314,7 @@ zookeeper:
   ## If the Zookeeper Chart is disabled a URL and port are required to connect
   url: ""
   port: 2181
-  replicaCount: 3
+  replicaCount: 1
 
 # ------------------------------------------------------------------------------
 # Nifi registry:
